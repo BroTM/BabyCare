@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.babycare.Activities.developmentActivities.Teach_Burmese">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/burmeseback"
+       android:scaleType="fitCenter"/>
+   <!-- <ImageView
+        android:layout_width="400dp"
+        android:src="@drawable/chalkboard"
+        android:layout_centerInParent="true"-->
+        <!--android:layout_height="200dp" />-->
+    <android.support.v4.view.ViewPager
+        android:layout_width="200dp"
+        android:id="@+id/teach_burmese_pager"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/prepre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/previous"
+        android:layout_centerVertical="true"/>
+    <ImageView
+        android:id="@+id/nextnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/next"
+        />
+</RelativeLayout>

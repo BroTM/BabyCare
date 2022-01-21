@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+            <shape android:shape="rectangle">
+                <gradient android:type="sweep" android:startColor="@color/card" android:endColor="@color/card"
+                    android:centerColor="@color/card"/>
+                <corners android:bottomLeftRadius="2dp" android:topLeftRadius="200dp" android:bottomRightRadius="200dp"/>
+                <stroke android:width="0.5dp" android:color="#cb76ea"/>
+                <size android:height="10dp" android:width="60dp"/>
+            </shape>
+
+
+    </item>
+</selector>
